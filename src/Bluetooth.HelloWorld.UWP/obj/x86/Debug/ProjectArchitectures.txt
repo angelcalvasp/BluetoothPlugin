@@ -1,0 +1,2 @@
+C:\GitHub\BluetoothPlugin\src\Bluetooth.HelloWorld.UWP\Bluetooth.HelloWorld.UWP.csproj;x86
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\Bluetooth.Plugin.UWP.csproj;x86

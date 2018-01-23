@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Bluetooth.HelloWorld"
+             x:Class="Bluetooth.HelloWorld.MainPage">
+
+    <Grid Padding="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Text="Check bluetooth" Clicked="Button_Click" HorizontalOptions="Fill" Margin="0"/>
+            <Label x:Name="StatusLabel" HorizontalOptions="Center" Margin="0" Grid.Row="1"/>
+            <Button Text="Get paired devices" HorizontalOptions="Fill" Clicked="Button_PairedDevicesClick" Margin="0" Grid.Row="2"/>
+            <ListView x:Name="listView" Margin="0" Grid.Row="3" ItemSelected="Bluetooth_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Name}" Detail="{Binding Address}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </Grid>
+    </Grid>
+
+</ContentPage>

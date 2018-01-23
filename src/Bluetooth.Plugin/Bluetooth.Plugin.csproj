@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>Plugin.Bluetooth</AssemblyName>
+    <RootNamespace>Plugin.Bluetooth</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Bluetooth.Plugin.Abstractions\Bluetooth.Plugin.Abstractions.csproj" />
+  </ItemGroup>
+</Project>

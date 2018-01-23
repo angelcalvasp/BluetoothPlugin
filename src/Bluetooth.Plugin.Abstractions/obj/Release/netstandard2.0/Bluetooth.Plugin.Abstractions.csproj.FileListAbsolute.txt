@@ -1,0 +1,4 @@
+C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin.Abstractions\obj\Release\netstandard2.0\Bluetooth.Plugin.Abstractions.csprojResolveAssemblyReference.cache
+C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin.Abstractions\obj\Release\netstandard2.0\Bluetooth.Plugin.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin.Abstractions\obj\Release\netstandard2.0\Bluetooth.Plugin.Abstractions.AssemblyInfoInputs.cache
+C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin.Abstractions\obj\Release\netstandard2.0\Bluetooth.Plugin.Abstractions.AssemblyInfo.cs

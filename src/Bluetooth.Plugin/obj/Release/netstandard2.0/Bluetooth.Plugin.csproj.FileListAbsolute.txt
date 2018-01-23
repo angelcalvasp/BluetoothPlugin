@@ -1,0 +1,3 @@
+C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin\obj\Release\netstandard2.0\Bluetooth.Plugin.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin\obj\Release\netstandard2.0\Bluetooth.Plugin.AssemblyInfoInputs.cache
+C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin\obj\Release\netstandard2.0\Bluetooth.Plugin.AssemblyInfo.cs
