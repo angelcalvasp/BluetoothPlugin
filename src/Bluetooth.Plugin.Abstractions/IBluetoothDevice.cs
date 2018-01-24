@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.Bluetooth.Abstractions.Args;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -23,5 +24,8 @@ namespace Plugin.Bluetooth.Abstractions
         Task Write(string message);
 
         Task Write(byte[] bytes);
+
+        event EventHandler<BluetoothDataReceivedEventArgs> OnDataReceived;
+
     }
 }

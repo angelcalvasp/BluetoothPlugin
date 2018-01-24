@@ -152,13 +152,13 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Bluetooth.Plugin.Abstractions\Bluetooth.Plugin.Abstractions.csproj">
+      <Project>{52ac09f2-e158-4138-a336-3c4441e5ef4d}</Project>
+      <Name>Bluetooth.Plugin.Abstractions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Bluetooth.HelloWorld\Bluetooth.HelloWorld.csproj">
       <Project>{B8C882CF-3D14-46EA-AB77-F27B7808B2F8}</Project>
       <Name>Bluetooth.HelloWorld</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Bluetooth.Plugin.Abstractions\Bluetooth.Plugin.Abstractions.csproj">
-      <Project>{3e192139-5eed-4729-bb37-e190d1283548}</Project>
-      <Name>Bluetooth.Plugin.Abstractions</Name>
     </ProjectReference>
     <ProjectReference Include="..\Bluetooth.Plugin.UWP\Bluetooth.Plugin.UWP.csproj">
       <Project>{3439071e-a478-4436-91e3-c4359a930145}</Project>

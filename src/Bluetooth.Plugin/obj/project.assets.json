@@ -291,17 +291,17 @@
           "ref/netstandard1.0/System.Xml.XDocument.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
           "NETStandard.Library": "1.6.1"
         },
         "compile": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         }
       }
     }
@@ -1873,7 +1873,7 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Bluetooth.Plugin.Abstractions/1.0.0": {
+    "Plugin.Bluetooth.Abstractions/1.0.0": {
       "type": "project",
       "path": "../Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj",
       "msbuildProject": "../Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj"
@@ -1881,8 +1881,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v1.0": [
-      "Bluetooth.Plugin.Abstractions >= 1.0.0",
-      "NETStandard.Library >= 1.6.1"
+      "NETStandard.Library >= 1.6.1",
+      "Plugin.Bluetooth.Abstractions >= 1.0.0"
     ]
   },
   "packageFolders": {

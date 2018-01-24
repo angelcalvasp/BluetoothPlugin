@@ -1,6 +1,6 @@
 Bluetooth.HelloWorld
-Bluetooth.Plugin.Abstractions
 FormsViewGroup
+Plugin.Bluetooth.Abstractions
 Plugin.Bluetooth
 System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable

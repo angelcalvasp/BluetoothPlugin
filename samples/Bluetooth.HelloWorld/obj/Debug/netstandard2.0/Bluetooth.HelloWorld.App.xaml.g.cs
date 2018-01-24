@@ -11,7 +11,7 @@
 namespace Bluetooth.HelloWorld {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.HelloWorld\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -6,7 +6,7 @@ namespace Plugin.Bluetooth.Abstractions
 {
     public abstract class BaseBluetooth : IBluetooth, IDisposable
     {
-        public abstract bool IsAvailable
+        public abstract bool IsSupportedByDevice
         {
             get;
         }

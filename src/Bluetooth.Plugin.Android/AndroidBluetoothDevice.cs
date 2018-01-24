@@ -13,6 +13,7 @@ using Android.Widget;
 using Java.Util;
 using Plugin.Bluetooth.Abstractions;
 using System.IO;
+using Plugin.Bluetooth.Abstractions.Args;
 
 namespace Bluetooth.Plugin.Android
 {
@@ -64,6 +65,7 @@ namespace Bluetooth.Plugin.Android
             _bluetoothConnectionThread.DeviceConnected += (o, t) =>
             {
                 _isConnected = true;
+                _bluetoothConnectionThread.ReceivedData += _bluetoothConnectionThread_ReceivedData;
                 tc.TrySetResult(true);
             };
 
@@ -76,6 +78,11 @@ namespace Bluetooth.Plugin.Android
             _bluetoothConnectionThread.Run();
 
             return tc.Task;
+        }
+
+        private void _bluetoothConnectionThread_ReceivedData(object sender, BluetoothDataReceivedEventArgs e)
+        {
+            DoOnDataReceived(e.Data);
         }
 
         public Task Disconnect()
@@ -159,6 +166,16 @@ namespace Bluetooth.Plugin.Android
         public override string ToString()
         {
             return Name;
+        }
+
+        public event EventHandler<BluetoothDataReceivedEventArgs> OnDataReceived;
+
+        private void DoOnDataReceived(byte[] data)
+        {
+            if(OnDataReceived!= null)
+            {
+                OnDataReceived(this,new BluetoothDataReceivedEventArgs(data));
+            }
         }
     }
 }

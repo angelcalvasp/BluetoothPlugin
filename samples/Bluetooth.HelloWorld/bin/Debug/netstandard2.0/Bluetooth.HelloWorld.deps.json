@@ -9,9 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "Bluetooth.HelloWorld/1.0.0": {
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
           "NETStandard.Library": "2.0.1",
           "Plugin.Bluetooth": "1.0.0",
+          "Plugin.Bluetooth.Abstractions": "1.0.0",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "runtime": {
@@ -31,21 +31,21 @@
           "lib/netstandard1.0/Xamarin.Forms.Xaml.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.1"
-        },
-        "runtime": {
-          "Bluetooth.Plugin.Abstractions.dll": {}
-        }
-      },
       "Plugin.Bluetooth/1.0.0": {
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
-          "NETStandard.Library": "2.0.1"
+          "NETStandard.Library": "2.0.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
         },
         "runtime": {
           "Plugin.Bluetooth.dll": {}
+        }
+      },
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "Plugin.Bluetooth.Abstractions.dll": {}
         }
       }
     }
@@ -77,12 +77,12 @@
       "path": "xamarin.forms/2.5.0.122203",
       "hashPath": "xamarin.forms.2.5.0.122203.nupkg.sha512"
     },
-    "Bluetooth.Plugin.Abstractions/1.0.0": {
+    "Plugin.Bluetooth/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Plugin.Bluetooth/1.0.0": {
+    "Plugin.Bluetooth.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

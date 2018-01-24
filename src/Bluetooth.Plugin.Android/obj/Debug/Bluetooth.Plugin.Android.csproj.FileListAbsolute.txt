@@ -52,8 +52,8 @@ C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Debug\Plugin.Bluetoot
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Debug\Plugin.Bluetooth.pdb
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Debug\Plugin.Bluetooth.apk
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Debug\Plugin.Bluetooth-Signed.apk
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Debug\Bluetooth.Plugin.Abstractions.dll
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Debug\Bluetooth.Plugin.Abstractions.pdb
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Debug\Plugin.Bluetooth.Abstractions.dll
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Debug\Plugin.Bluetooth.Abstractions.pdb
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Debug\Bluetooth.Plugin.Android.csprojResolveAssemblyReference.cache
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Debug\Bluetooth.Plugin.Android.csproj.CoreCompileInputs.cache
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Debug\Plugin.Bluetooth.dll

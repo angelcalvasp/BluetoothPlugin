@@ -21,14 +21,7 @@ C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Blueto
 C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin.UWP\bin\Debug\Plugin.Bluetooth.pdb
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\Bluetooth.Plugin.UWP.csprojResolveAssemblyReference.cache
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\Bluetooth.Plugin.UWP.csproj.CoreCompileInputs.cache
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\Bluetooth.Plugin.UWP.dll
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\Bluetooth.Plugin.UWP.pdb
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Bluetooth.Plugin.UWP.dll
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Bluetooth.Plugin.UWP.pdb
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Bluetooth.Plugin.UWP.pri
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Bluetooth.Plugin.Abstractions.dll
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Plugin.Bluetooth.dll
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Bluetooth.Plugin.Abstractions.pdb
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Plugin.Bluetooth.pdb
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\priconfig.xml
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\priconfig.xml.intermediate
@@ -41,3 +34,8 @@ C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\pri.resfiles.interm
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\qualifiers.txt
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\qualifiers.txt.intermediate
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Plugin.Bluetooth.pri
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Plugin.Bluetooth.Abstractions.dll
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\Debug\Plugin.Bluetooth.Abstractions.pdb
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\Plugin.Bluetooth.dll
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\Debug\Plugin.Bluetooth.pdb

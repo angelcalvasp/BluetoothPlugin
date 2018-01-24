@@ -31,16 +31,19 @@ namespace Plugin.Bluetooth
             btAdapter = BluetoothAdapter.DefaultAdapter;
         }
 
-        public override bool IsAvailable
+        public override bool IsSupportedByDevice
         {
-            get { return true; }
+            get
+            {
+                var hasPermission = Application.Context.PackageManager.HasSystemFeature(PackageManager.FeatureBluetooth);
+                return hasPermission;
+            }
         }
 
         public override bool IsTurnedOn
         {
             get
             {
-                CheckForPermission();
 
                 var bluetoothAdapter = BluetoothAdapter.DefaultAdapter;
                 if (bluetoothAdapter == null)
@@ -57,7 +60,6 @@ namespace Plugin.Bluetooth
 
         public override async Task<List<IBluetoothDevice>> GetPairedDevices()
         {
-            CheckForPermission();
 
             var devices = new List<IBluetoothDevice>();
 
@@ -147,14 +149,6 @@ namespace Plugin.Bluetooth
             throw new NotImplementedException();
         }
 
-        private void CheckForPermission()
-        {
-            var hasPermission =  Application.Context.PackageManager.HasSystemFeature(PackageManager.FeatureBluetooth);
-            if(!hasPermission)
-            {
-                throw new BluetoothPermissionException("Bluetooth permission not set on project");
-            }
-        }
 
     }
 }

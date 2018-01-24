@@ -15,6 +15,7 @@ using Java.Lang;
 using Plugin.Bluetooth.Abstractions.Exceptions;
 using Exception = System.Exception;
 using Java.Util;
+using Plugin.Bluetooth.Abstractions.Args;
 
 namespace Bluetooth.Plugin.Android
 {
@@ -130,7 +131,6 @@ namespace Bluetooth.Plugin.Android
                     IntPtr createRfcommSocket = JNIEnv.GetMethodID(Device.Class.Handle, "createRfcommSocket", "(I)Landroid/bluetooth/BluetoothSocket;");
                     IntPtr _socket = JNIEnv.CallObjectMethod(Device.Handle, createRfcommSocket, new global::Android.Runtime.JValue(Port));
                     Socket = Java.Lang.Object.GetObject<BluetoothSocket>(_socket, JniHandleOwnership.TransferLocalRef);
-
                     Socket.Connect();
                     DoDeviceConnected();
                 }
@@ -149,6 +149,12 @@ namespace Bluetooth.Plugin.Android
                     DoDeviceConnectionFailed();
                 }
             }
+
+            if(Socket != null && Socket.IsConnected)
+            {
+
+            }
+
         }
 
         public event EventHandler DeviceConnected;
@@ -170,6 +176,15 @@ namespace Bluetooth.Plugin.Android
             }
         }
 
+        public event EventHandler<BluetoothDataReceivedEventArgs> ReceivedData;
+        private void DoReceivedData(byte[] data)
+        {
+            if (DeviceConnectionFailed != null)
+            {
+                ReceivedData(this, new BluetoothDataReceivedEventArgs(data));
+            }
+        }
+
         /** Will cancel an in-progress connection, and close the socket */
         public void Disconnect()
         {
@@ -182,6 +197,30 @@ namespace Bluetooth.Plugin.Android
             catch (IOException e) {
 
             }
+        }
+
+        //Method obtained from
+        //https://stackoverflow.com/questions/44593085/android-bluetooth-how-to-read-incoming-data
+        private async void ReceiveData(BluetoothSocket socket)
+        {
+            var socketInputStream = socket.InputStream;
+            byte[] buffer = new byte[256];
+            int bytes;
+
+            // Keep looping to listen for received messages
+            while (!IsInterrupted)
+            {
+
+                byte[] result;
+                int length;
+                length = (int)socketInputStream.Length;
+                result = new byte[length];
+                await socketInputStream.ReadAsync(result, 0, length);
+                if(length>0)
+                DoReceivedData(result);
+
+            }
+
         }
 
 

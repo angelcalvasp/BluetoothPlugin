@@ -7,11 +7,11 @@ C:\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bl
 C:\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.AssemblyInfo.cs
 C:\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.dll
 C:\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.pdb
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\bin\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.deps.json
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\bin\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.dll
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\bin\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.pdb
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\bin\Debug\netstandard1.0\Plugin.Bluetooth.Abstractions.deps.json
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\bin\Debug\netstandard1.0\Plugin.Bluetooth.Abstractions.dll
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\bin\Debug\netstandard1.0\Plugin.Bluetooth.Abstractions.pdb
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.csproj.CoreCompileInputs.cache
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.AssemblyInfoInputs.cache
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.AssemblyInfo.cs
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.dll
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.pdb
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Plugin.Bluetooth.Abstractions.dll
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Plugin.Bluetooth.Abstractions.pdb

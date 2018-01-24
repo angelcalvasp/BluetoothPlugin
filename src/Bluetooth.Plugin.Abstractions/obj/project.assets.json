@@ -1878,7 +1878,7 @@
     },
     "restore": {
       "projectUniqueName": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.Abstractions\\Bluetooth.Plugin.Abstractions.csproj",
-      "projectName": "Bluetooth.Plugin.Abstractions",
+      "projectName": "Plugin.Bluetooth.Abstractions",
       "projectPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.Abstractions\\Bluetooth.Plugin.Abstractions.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.Abstractions\\obj\\",

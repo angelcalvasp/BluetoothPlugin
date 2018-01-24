@@ -28,8 +28,8 @@
       <qualifier name="AlternateForm" value="" />
       <qualifier name="Platform" value="UAP" />
     </default>
-    <indexer-config type="RESW" convertDotsToSlashes="true" initialPath="Bluetooth.Plugin.UWP" />
-    <indexer-config type="RESJSON" initialPath="Bluetooth.Plugin.UWP" />
+    <indexer-config type="RESW" convertDotsToSlashes="true" initialPath="Plugin.Bluetooth" />
+    <indexer-config type="RESJSON" initialPath="Plugin.Bluetooth" />
     <indexer-config type="RESFILES" qualifierDelimiter="." />
   </index>
   <index root="\" startIndexAt="obj\Debug\pri.resfiles">

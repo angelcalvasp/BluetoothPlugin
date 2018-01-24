@@ -108,8 +108,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Bluetooth.HelloWorld.Android.dll" comes first in this list. */
 		"Bluetooth.HelloWorld.Android.dll",
 		"Bluetooth.HelloWorld.dll",
-		"Bluetooth.Plugin.Abstractions.dll",
 		"FormsViewGroup.dll",
+		"Plugin.Bluetooth.Abstractions.dll",
 		"Plugin.Bluetooth.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",

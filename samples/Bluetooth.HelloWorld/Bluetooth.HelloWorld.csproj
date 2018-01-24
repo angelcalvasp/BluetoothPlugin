@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bluetooth.Plugin.Abstractions\Bluetooth.Plugin.Abstractions.csproj" />
-    <ProjectReference Include="..\Bluetooth.Plugin\Bluetooth.Plugin.csproj" />
+    <ProjectReference Include="..\..\src\Bluetooth.Plugin.Abstractions\Bluetooth.Plugin.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Bluetooth.Plugin\Bluetooth.Plugin.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,5 +20,11 @@
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="DevicePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

@@ -14,30 +14,31 @@ namespace Bluetooth.HelloWorld
 		public MainPage()
 		{
 			InitializeComponent();
+            this.Appearing += MainPage_Appearing;
 		}
+
+        private void MainPage_Appearing(object sender, EventArgs e)
+        {
+            CheckStatus();
+        }
+
+
 
         private void Button_Click(object sender, EventArgs e)
         {
-            using (var bluetooth = CrossBluetooth.Current)
-            {
-                if(bluetooth.IsAvailable)
-                {
-                    StatusLabel.Text = bluetooth.IsTurnedOn ? "Bluetooth is On" : "Bluetooth is Off";
-                }
-                else
-                {
-                    StatusLabel.Text = "Device doesnt seem to support bluetooth";
-                }
-                
-            }
-
+            CheckStatus();
         }
 
         private async void Button_PairedDevicesClick(object sender, EventArgs e)
         {
             using (var bluetooth = CrossBluetooth.Current)
             {
-                listView.ItemsSource = await bluetooth.GetPairedDevices();
+                var pairedDevices = await bluetooth.GetPairedDevices();
+                listView.ItemsSource = pairedDevices;
+                if(!pairedDevices.Any())
+                {
+                    DisplayAlert("Warning","There are no paired devices","Ok");
+                }
             }
         }
 
@@ -55,8 +56,15 @@ namespace Bluetooth.HelloWorld
 
                 try
                 {
+                    //This is to check if it was already connected from a previous call
+                    //What should be done is maybe show a dialog to prevent user interaction while its trying to write to the device
                     if (!item.IsConnected)
                         await item.Connect();
+
+                    if (!item.IsConnected)
+                    {
+                        throw new Exception("Couldnt connect");
+                    }
 
                 }
                 catch
@@ -82,6 +90,41 @@ namespace Bluetooth.HelloWorld
                 catch
                 {
                     DisplayAlert("Error", "Couldnt disconnect from device.", "Ok");
+                }
+
+            }
+        }
+
+        private void CheckStatus()
+        {
+            using (var bluetooth = CrossBluetooth.Current)
+            {
+                if (bluetooth.IsSupportedByDevice)
+                {
+                    var isON = bluetooth.IsTurnedOn;
+                    StatusLabel.Text = isON ? "Bluetooth is On" : "Bluetooth is Off turn it on";
+
+                    TurnOnBluetoothButton.IsVisible = !isON;
+
+                    if(!isON)
+                    {
+                        GetPairedDevicesButton.IsVisible = false;
+                        listView.IsVisible = false;
+                    }
+                    else
+                    {
+                        TurnOnBluetoothButton.IsVisible = false;
+                        GetPairedDevicesButton.IsVisible = true;
+                        listView.IsVisible = true;
+                    }
+
+                }
+                else
+                {
+                    StatusLabel.Text = "Device doesnt seem to support bluetooth";
+                    TurnOnBluetoothButton.IsVisible = false;
+                    GetPairedDevicesButton.IsVisible = false;
+                    listView.IsVisible = false;
                 }
 
             }

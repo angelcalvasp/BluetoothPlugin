@@ -129,8 +129,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Bluetooth.Plugin": "1.0.0",
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "Plugin.Bluetooth": "1.0.0",
+          "Plugin.Bluetooth.Abstractions": "1.0.0",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "compile": {
@@ -140,27 +140,31 @@
           "bin/placeholder/Bluetooth.HelloWorld.dll": {}
         }
       },
-      "Bluetooth.Plugin/1.0.0": {
+      "Plugin.Bluetooth/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0"
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Bluetooth.Plugin.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bluetooth.Plugin.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         }
       }
     },
@@ -292,8 +296,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Bluetooth.Plugin": "1.0.0",
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "Plugin.Bluetooth": "1.0.0",
+          "Plugin.Bluetooth.Abstractions": "1.0.0",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "compile": {
@@ -303,27 +307,31 @@
           "bin/placeholder/Bluetooth.HelloWorld.dll": {}
         }
       },
-      "Bluetooth.Plugin/1.0.0": {
+      "Plugin.Bluetooth/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0"
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Bluetooth.Plugin.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bluetooth.Plugin.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         }
       }
     },
@@ -455,8 +463,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Bluetooth.Plugin": "1.0.0",
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "Plugin.Bluetooth": "1.0.0",
+          "Plugin.Bluetooth.Abstractions": "1.0.0",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "compile": {
@@ -466,27 +474,31 @@
           "bin/placeholder/Bluetooth.HelloWorld.dll": {}
         }
       },
-      "Bluetooth.Plugin/1.0.0": {
+      "Plugin.Bluetooth/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0"
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Bluetooth.Plugin.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bluetooth.Plugin.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         }
       }
     },
@@ -618,8 +630,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Bluetooth.Plugin": "1.0.0",
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "Plugin.Bluetooth": "1.0.0",
+          "Plugin.Bluetooth.Abstractions": "1.0.0",
           "Xamarin.Forms": "2.5.0.122203"
         },
         "compile": {
@@ -629,27 +641,31 @@
           "bin/placeholder/Bluetooth.HelloWorld.dll": {}
         }
       },
-      "Bluetooth.Plugin/1.0.0": {
+      "Plugin.Bluetooth/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0"
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Bluetooth.Plugin.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bluetooth.Plugin.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "compile": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bluetooth.Plugin.Abstractions.dll": {}
+          "bin/placeholder/Plugin.Bluetooth.Abstractions.dll": {}
         }
       }
     }
@@ -846,15 +862,15 @@
       "path": "../Bluetooth.HelloWorld/Bluetooth.HelloWorld.csproj",
       "msbuildProject": "../Bluetooth.HelloWorld/Bluetooth.HelloWorld.csproj"
     },
-    "Bluetooth.Plugin/1.0.0": {
+    "Plugin.Bluetooth/1.0.0": {
       "type": "project",
-      "path": "../../../Bluetooth/Bluetooth.Plugin/Bluetooth.Plugin.csproj",
-      "msbuildProject": "../../../Bluetooth/Bluetooth.Plugin/Bluetooth.Plugin.csproj"
+      "path": "../../src/Bluetooth.Plugin/Bluetooth.Plugin.csproj",
+      "msbuildProject": "../../src/Bluetooth.Plugin/Bluetooth.Plugin.csproj"
     },
-    "Bluetooth.Plugin.Abstractions/1.0.0": {
+    "Plugin.Bluetooth.Abstractions/1.0.0": {
       "type": "project",
-      "path": "../../../Bluetooth/Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj",
-      "msbuildProject": "../../../Bluetooth/Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj"
+      "path": "../../src/Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj",
+      "msbuildProject": "../../src/Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -870,11 +886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Blacksun.Xamarin\\Blacksun.Xamarin.Plugins\\Bluetooth\\Samples\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.iOS\\Bluetooth.HelloWorld.iOS.csproj",
+      "projectUniqueName": "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld.iOS\\Bluetooth.HelloWorld.iOS.csproj",
       "projectName": "Bluetooth.HelloWorld.iOS",
-      "projectPath": "C:\\GitHub\\Blacksun.Xamarin\\Blacksun.Xamarin.Plugins\\Bluetooth\\Samples\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.iOS\\Bluetooth.HelloWorld.iOS.csproj",
+      "projectPath": "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld.iOS\\Bluetooth.HelloWorld.iOS.csproj",
       "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Blacksun.Xamarin\\Blacksun.Xamarin.Plugins\\Bluetooth\\Samples\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.iOS\\obj\\",
+      "outputPath": "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -897,8 +913,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\GitHub\\Blacksun.Xamarin\\Blacksun.Xamarin.Plugins\\Bluetooth\\Samples\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.csproj": {
-              "projectPath": "C:\\GitHub\\Blacksun.Xamarin\\Blacksun.Xamarin.Plugins\\Bluetooth\\Samples\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.csproj"
+            "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.csproj": {
+              "projectPath": "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.csproj"
             }
           }
         }

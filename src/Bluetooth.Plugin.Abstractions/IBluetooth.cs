@@ -13,7 +13,7 @@ namespace Plugin.Bluetooth.Abstractions
         /// <summary>
         /// Gets if bluetooth is available
         /// </summary>
-        bool IsAvailable { get; }
+        bool IsSupportedByDevice { get; }
 
         /// <summary>
         /// Gets if bluetooth is on

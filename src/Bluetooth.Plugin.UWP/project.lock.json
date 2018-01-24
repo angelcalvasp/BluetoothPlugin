@@ -2178,18 +2178,18 @@
           }
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.0",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        }
-      },
       "Plugin.Bluetooth/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
+        }
+      },
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
           "NETStandard.Library": "1.6.1"
         }
       }
@@ -4562,18 +4562,18 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.0",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        }
-      },
       "Plugin.Bluetooth/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
+        }
+      },
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
           "NETStandard.Library": "1.6.1"
         }
       }
@@ -6971,18 +6971,18 @@
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.0",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        }
-      },
       "Plugin.Bluetooth/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
+        }
+      },
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
           "NETStandard.Library": "1.6.1"
         }
       }
@@ -9362,18 +9362,18 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.0",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        }
-      },
       "Plugin.Bluetooth/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
+        }
+      },
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
           "NETStandard.Library": "1.6.1"
         }
       }
@@ -11771,18 +11771,18 @@
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.0",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        }
-      },
       "Plugin.Bluetooth/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
+        }
+      },
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
           "NETStandard.Library": "1.6.1"
         }
       }
@@ -14162,18 +14162,18 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.0",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        }
-      },
       "Plugin.Bluetooth/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
+        }
+      },
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
           "NETStandard.Library": "1.6.1"
         }
       }
@@ -16571,18 +16571,18 @@
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Bluetooth.Plugin.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.0",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        }
-      },
       "Plugin.Bluetooth/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.0",
         "dependencies": {
-          "Bluetooth.Plugin.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.1",
+          "Plugin.Bluetooth.Abstractions": "1.0.0"
+        }
+      },
+      "Plugin.Bluetooth.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.0",
+        "dependencies": {
           "NETStandard.Library": "1.6.1"
         }
       }
@@ -22369,15 +22369,15 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Bluetooth.Plugin.Abstractions/1.0.0": {
-      "type": "project",
-      "path": "../Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj",
-      "msbuildProject": "../Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj"
-    },
     "Plugin.Bluetooth/1.0.0": {
       "type": "project",
       "path": "../Bluetooth.Plugin/Bluetooth.Plugin.csproj",
       "msbuildProject": "../Bluetooth.Plugin/Bluetooth.Plugin.csproj"
+    },
+    "Plugin.Bluetooth.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj",
+      "msbuildProject": "../Bluetooth.Plugin.Abstractions/Bluetooth.Plugin.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
