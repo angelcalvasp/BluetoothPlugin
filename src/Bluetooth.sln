@@ -21,6 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluetooth.HelloWorld.UWP", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bluetooth.Plugin.UWP", "Bluetooth.Plugin.UWP\Bluetooth.Plugin.UWP.csproj", "{3439071E-A478-4436-91E3-C4359A930145}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E60FD524-5928-413A-A13B-BB4BBF2BDA20}"
+	ProjectSection(SolutionItems) = preProject
+		..\nuget\Plugin.nuspec = ..\nuget\Plugin.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

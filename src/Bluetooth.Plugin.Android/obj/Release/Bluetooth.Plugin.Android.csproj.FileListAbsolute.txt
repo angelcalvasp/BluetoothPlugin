@@ -1,0 +1,15 @@
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Release\Bluetooth.Plugin.Android.XML
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Release\Plugin.Bluetooth.dll
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Release\Plugin.Bluetooth.pdb
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Release\Plugin.Bluetooth.apk
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Release\Plugin.Bluetooth-Signed.apk
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Release\Plugin.Bluetooth.Abstractions.dll
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\bin\Release\Plugin.Bluetooth.Abstractions.pdb
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Release\Bluetooth.Plugin.Android.csprojResolveAssemblyReference.cache
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Release\Bluetooth.Plugin.Android.csproj.CoreCompileInputs.cache
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Release\Plugin.Bluetooth.dll
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Release\Plugin.Bluetooth.pdb
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Release\android\bin\Plugin.Bluetooth.apk
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Release\res\values\strings.xml
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Release\R.cs.flag
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Android\obj\Release\uploadflags.txt
