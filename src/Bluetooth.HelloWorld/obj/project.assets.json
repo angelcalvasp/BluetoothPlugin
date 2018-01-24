@@ -420,7 +420,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\angel\\.nuget\\packages\\": {},
+    "C:\\Users\\Nuevo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -433,7 +433,7 @@
       "projectUniqueName": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.csproj",
       "projectName": "Bluetooth.HelloWorld",
       "projectPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.csproj",
-      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Nuevo\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -441,7 +441,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nuevo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

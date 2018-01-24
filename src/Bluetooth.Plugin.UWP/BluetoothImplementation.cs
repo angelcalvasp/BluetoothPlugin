@@ -8,6 +8,9 @@ using Windows.Devices.Enumeration;
 using Windows.Devices.Radios;
 using Bluetooth.Plugin.UWP;
 using Plugin.Bluetooth.Abstractions;
+using Windows.Devices.SerialCommunication;
+using Windows.Networking.Connectivity;
+using System.Text.RegularExpressions;
 
 namespace Plugin.Bluetooth
 {
@@ -41,32 +44,41 @@ namespace Plugin.Bluetooth
         {
             var devices = new List<IBluetoothDevice>();
 
-            var selector = BluetoothDevice.GetDeviceSelector();
+            var bluetoothDevices = await GetBluetoothPairedDevices();
 
-            DeviceInformationCollection DeviceInfoCollection
-                = await DeviceInformation.FindAllAsync(RfcommDeviceService.GetDeviceSelector(RfcommServiceId.SerialPort));
+            var serialPortDevices = await GetSerialPortDevices();
 
-            foreach (var deviceInfo in DeviceInfoCollection)
+            foreach (var deviceInfo in bluetoothDevices)
             {
-                var device = new UWPBluetoothDevice() { Name = deviceInfo.Name, Address = string.Empty };
+                
 
-                device.BluetoothDevice = deviceInfo;
+                var address = GetAddress(deviceInfo);
 
-
-                var id = string.Empty;
-                if (deviceInfo.Id.Contains("BTHENUM#{"))
+                if(!string.IsNullOrEmpty(address))
                 {
-                    var index = deviceInfo.Id.IndexOf("BTHENUM#{")+9;
-                    id = deviceInfo.Id.Substring(index, 36);
+                    var bluetoothDevice = new UWPBluetoothDevice()
+                    {
+                        Name = deviceInfo.Name,
+                        Address = address
+                    };
+
+                    var trimmedAddress = address.Replace(":", "");
+                    ulong t = Convert.ToUInt64(trimmedAddress, 16);
+
+                    var bluetoothDeviceQuery = await BluetoothDevice.FromBluetoothAddressAsync(t);
+                    bluetoothDevice.BluetoothDeviceReference = bluetoothDeviceQuery;
+
+                    var serialQuery = serialPortDevices.FirstOrDefault(x => x.Id.Contains(deviceInfo.Id));
+                    if (serialQuery != null)
+                    {
+                        var identifiers = GetUniqueIdentifiers(serialQuery);
+                        bluetoothDevice.UniqueIdentifiers.AddRange(identifiers);
+                    }
+
+                    devices.Add(bluetoothDevice);
                 }
 
-                if (!String.IsNullOrEmpty(id))
-                {
-                    var guid = Guid.Parse(id);
-                    device.UniqueIdentifiers.Add(guid);
-                }
-
-                devices.Add(device);
+                
                 
             }
 
@@ -74,9 +86,80 @@ namespace Plugin.Bluetooth
 
         }
 
+        //Source https://stackoverflow.com/questions/44308078/getting-the-com-port-name-for-a-known-bluetooth-device-in-uwp
+        //modified 
+        private string GetAddress(DeviceInformation deviceInfo)
+        {
+            // Example Bluetooth DeviceInfo.Id: "Bluetooth#Bluetooth9c:b6:d0:d6:d7:56-00:07:80:cb:56:6d"
+            // from device with Association Endpoint Address: "00:07:80:cb:56:6d"
+
+            var propertysegment = GetPropertySegmentThatContainsPartiallyKey(deviceInfo,"Bluetooth");
+
+            var lengthOfTrailingAssociationEndpointAddresss = (2 * 6) + 5;
+            var bluetoothDeviceAddress = propertysegment.Substring(propertysegment.Length - lengthOfTrailingAssociationEndpointAddresss, lengthOfTrailingAssociationEndpointAddresss);
+            return bluetoothDeviceAddress;
+        }
+
+        private List<Guid> GetUniqueIdentifiers(DeviceInformation deviceInfo)
+        {
+            var result = new List<Guid>();
+            var propertysegment = GetPropertySegmentThatContainsPartiallyKey(deviceInfo, "RFCOMM");
+
+            var identifiers = Between(propertysegment,"{","}");
+
+            if (!string.IsNullOrEmpty(identifiers))
+            {
+                var split = identifiers.Split(',');
+                foreach(var id in split)
+                {
+                    result.Add(Guid.Parse(id));
+                }
+            }
+
+            return result;
+        }
+
+        private string Between(string source, string left, string right)
+        {
+            return Regex.Match(
+                    source,
+                    string.Format("{0}(.*){1}", left, right))
+                .Groups[1].Value;
+        }
+
+        private string GetPropertySegmentThatContainsPartiallyKey(DeviceInformation deviceInfo,string key)
+        {
+            if (string.IsNullOrEmpty(deviceInfo.Id))
+                return null;
+            var split = deviceInfo.Id.Split('#').Where(x=>x.Contains(":"));
+
+            if(!split.Any())
+            {
+                return null;
+            }
+
+            return split.FirstOrDefault(x=>x.Contains(key));
+        }
+
         public override Task<List<IBluetoothDevice>> FindDevicesWithIdentifier(string identifier)
         {
             throw new NotImplementedException();
         }
+
+        private async Task<List<DeviceInformation>> GetBluetoothPairedDevices()
+        {
+            return await GetDevices(BluetoothDevice.GetDeviceSelector());
+        }
+
+        private async Task<List<DeviceInformation>> GetSerialPortDevices()
+        {
+            return await GetDevices(RfcommDeviceService.GetDeviceSelector(RfcommServiceId.SerialPort));
+        }
+
+        private async Task<List<DeviceInformation>> GetDevices(string selector)
+        {
+            return (await DeviceInformation.FindAllAsync(selector)).ToList();
+        }
+
     }
 }

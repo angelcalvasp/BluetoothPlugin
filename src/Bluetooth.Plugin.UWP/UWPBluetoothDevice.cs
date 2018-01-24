@@ -9,6 +9,7 @@ using Plugin.Bluetooth.Abstractions;
 using Plugin.Bluetooth.Abstractions.Exceptions;
 using System.Diagnostics;
 using System.Linq;
+using Windows.Devices.Bluetooth;
 
 namespace Bluetooth.Plugin.UWP
 {
@@ -28,7 +29,7 @@ namespace Bluetooth.Plugin.UWP
 
         StreamSocket _socket { get; set; }
 
-        public DeviceInformation BluetoothDevice { get; set; }
+        public BluetoothDevice BluetoothDeviceReference { get; set; }
 
         private RfcommDeviceService _service;
 
@@ -80,12 +81,21 @@ namespace Bluetooth.Plugin.UWP
 
             try
             {
-                lock (this)
-                {
-                    _socket = new StreamSocket();
-                }
 
-                _service = await RfcommDeviceService.FromIdAsync(BluetoothDevice.Id);
+                var services = (await BluetoothDeviceReference.GetRfcommServicesAsync()).Services;
+                if(services.Count > 0)
+                {
+                    _service = services[0];
+                }
+                if(_service == null)
+                {
+                    throw new Exception();
+                }
+                //lock (this)
+                //{
+                //    _socket = new StreamSocket();
+                //}
+                _socket = new StreamSocket();
                 await _socket.ConnectAsync(_service.ConnectionHostName, _service.ConnectionServiceName);
                 dataReader = new DataReader(_socket.InputStream);
                 dataWriter = new DataWriter(_socket.OutputStream);
@@ -98,7 +108,7 @@ namespace Bluetooth.Plugin.UWP
                 {
                     case (0x80070490): // ERROR_ELEMENT_NOT_FOUND
                         _isConnected = false;
-                        throw new Exception("Please verify that you are running the BluetoothRfcommChat server.");
+                        throw new Exception("Please verify that you are running the BluetoothRfcomm server.");
                         break;
                     default:
                         _isConnected = false;

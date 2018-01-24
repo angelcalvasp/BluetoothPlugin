@@ -7080,7 +7080,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\angel\\.nuget\\packages\\": {},
+    "C:\\Users\\Nuevo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
@@ -7089,7 +7089,7 @@
       "projectUniqueName": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.HelloWorld.UWP\\Bluetooth.HelloWorld.UWP.csproj",
       "projectName": "Bluetooth.HelloWorld.UWP",
       "projectPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.HelloWorld.UWP\\Bluetooth.HelloWorld.UWP.csproj",
-      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Nuevo\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.HelloWorld.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
@@ -7097,7 +7097,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nuevo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

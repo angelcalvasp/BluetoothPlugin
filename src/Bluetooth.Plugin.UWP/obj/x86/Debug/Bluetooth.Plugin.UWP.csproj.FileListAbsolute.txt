@@ -17,13 +17,13 @@ C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Blueto
 C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin.UWP\obj\x86\Debug\qualifiers.txt
 C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin.UWP\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\angel\Documents\GitHub\Blacksun.Xamarin\Blacksun.Xamarin.Plugins\Bluetooth\Bluetooth\Bluetooth.Plugin.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\x86\Debug\Bluetooth.Plugin.UWP.csprojResolveAssemblyReference.cache
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\x86\Debug\Bluetooth.Plugin.UWP.csproj.CoreCompileInputs.cache
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\x86\Debug\Plugin.Bluetooth.dll
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\x86\Debug\Plugin.Bluetooth.pdb
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\x86\Debug\Plugin.Bluetooth.pri
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\x86\Debug\Bluetooth.Plugin.Abstractions.dll
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\bin\x86\Debug\Bluetooth.Plugin.Abstractions.pdb
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\x86\Debug\Bluetooth.Plugin.UWP.csprojResolveAssemblyReference.cache
-C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\x86\Debug\Bluetooth.Plugin.UWP.csproj.CoreCompileInputs.cache
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\x86\Debug\Plugin.Bluetooth.dll
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\x86\Debug\Plugin.Bluetooth.pdb
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.UWP\obj\x86\Debug\priconfig.xml
