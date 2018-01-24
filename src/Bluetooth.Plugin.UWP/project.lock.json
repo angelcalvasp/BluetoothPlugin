@@ -22387,7 +22387,7 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\Nuevo\\.nuget\\packages\\": {},
+    "C:\\Users\\angel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
@@ -22396,14 +22396,14 @@
       "projectName": "Bluetooth.Plugin.UWP",
       "projectPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.UWP\\Bluetooth.Plugin.UWP.csproj",
       "projectJsonPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.UWP\\project.json",
-      "packagesPath": "C:\\Users\\Nuevo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nuevo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

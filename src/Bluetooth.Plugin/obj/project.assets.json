@@ -1886,7 +1886,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nuevo\\.nuget\\packages\\": {},
+    "C:\\Users\\angel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -1899,7 +1899,7 @@
       "projectUniqueName": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin\\Bluetooth.Plugin.csproj",
       "projectName": "Plugin.Bluetooth",
       "projectPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin\\Bluetooth.Plugin.csproj",
-      "packagesPath": "C:\\Users\\Nuevo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -1907,7 +1907,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nuevo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

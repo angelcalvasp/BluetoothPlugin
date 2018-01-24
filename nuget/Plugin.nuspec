@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>Xam.Plugin.Bluetooth</id>
+       <version>1.0.0.0</version>
+       <title>Bluetooth Plugin for Xamarin and Windows</title>
+       <authors>Angel Calvas</authors>
+       <owners>Angel Calvas</owners>
+     <licenseUrl>https://github.com/angelcalvasp/BluetoothPlugin/blob/master/LICENSE</licenseUrl>
+     <projectUrl>https://github.com/angelcalvasp/BluetoothPlugin</projectUrl>
+     <iconUrl>https://raw.githubusercontent.com/angelcalvasp/BluetoothPlugin/master/art/Bluetooth.png</iconUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         Bluetooth access across Android and Windows from a single API, allowing you to write to paired devices. 
+       </description>
+       <summary>Get paired devices and write to them.</summary>
+     <releaseNotes>
+     </releaseNotes>
+     <tags>xamarin, pcl, xam.pcl, bluetooth, windows phone, winphone, android, xamarin.forms, ios</tags>
+       <dependencies>
+       </dependencies>
+   </metadata>
+   <files>
+     <!--Core-->
+     <file src="..\src\Bluetooth.Plugin\bin\Release\netstandard1.0\Plugin.Bluetooth.*" target="lib\netstandard1.0" />
+
+     <!--Xamarin.Android-->
+     <file src="..\src\Bluetooth.Plugin.Android\bin\Release\Plugin.Bluetooth.*" target="lib\MonoAndroid10" />
+
+     <!--Xamarin.iOS-->
+     <!--<file src="..\src\Bluetooth.Plugin.iOS\bin\iPhone\Release\Plugin.Bluetooth.*" target="lib\Xamarin.iOS10" />-->
+
+     <!--UWP-->
+     <file src="..\src\Bluetooth.Plugin.UWP\bin\Release\Plugin.Bluetooth.*" target="lib\UAP10" />
+
+   </files>
+</package>
