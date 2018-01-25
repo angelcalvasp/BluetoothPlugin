@@ -210,7 +210,6 @@ namespace Bluetooth.Plugin.Android
             // Keep looping to listen for received messages
             while (!IsInterrupted)
             {
-
                 byte[] result;
                 int length;
                 length = (int)socketInputStream.Length;
@@ -218,7 +217,6 @@ namespace Bluetooth.Plugin.Android
                 await socketInputStream.ReadAsync(result, 0, length);
                 if(length>0)
                 DoReceivedData(result);
-
             }
 
         }

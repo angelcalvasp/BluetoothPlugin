@@ -17,7 +17,7 @@ namespace Plugin.Bluetooth
     public class BluetoothImplementation : BaseBluetooth
     {
 
-        public override bool IsAvailable
+        public override bool IsSupportedByDevice
         {
             get
             {

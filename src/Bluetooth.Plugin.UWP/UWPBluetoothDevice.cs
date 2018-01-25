@@ -10,6 +10,7 @@ using Plugin.Bluetooth.Abstractions.Exceptions;
 using System.Diagnostics;
 using System.Linq;
 using Windows.Devices.Bluetooth;
+using Plugin.Bluetooth.Abstractions.Args;
 
 namespace Bluetooth.Plugin.UWP
 {
@@ -99,6 +100,7 @@ namespace Bluetooth.Plugin.UWP
                 await _socket.ConnectAsync(_service.ConnectionHostName, _service.ConnectionServiceName);
                 dataReader = new DataReader(_socket.InputStream);
                 dataWriter = new DataWriter(_socket.OutputStream);
+                
                 _isConnected = true;
 
             }
@@ -191,5 +193,51 @@ namespace Bluetooth.Plugin.UWP
             await dataWriter.StoreAsync();
 
         }
+
+        public event EventHandler<BluetoothDataReceivedEventArgs> OnDataReceived;
+
+        private void DoOnDataReceived(byte[] data)
+        {
+            if (OnDataReceived != null)
+            {
+                OnDataReceived(this, new BluetoothDataReceivedEventArgs(data));
+            }
+        }
+
+        private void ReceiveData()
+        {
+            Task.Factory.StartNew(async()=>
+            {
+                try
+
+                {
+
+                    uint size = await dataReader.LoadAsync(sizeof(uint));
+
+                    if (size < sizeof(uint))
+                    {
+                        return;
+                    }
+
+                    uint stringLength = dataReader.ReadUInt32();
+
+                    uint actualStringLength = await dataReader.LoadAsync(stringLength);
+
+                    if (actualStringLength != stringLength)
+
+                    {
+                        // The underlying socket was closed before we were able to read the whole data
+                        return;
+                    }
+                    ReceiveData();
+                }
+                catch (Exception ex)
+                {
+                                        
+                }
+            });
+        }
+
+
     }
 }

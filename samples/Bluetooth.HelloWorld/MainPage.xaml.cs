@@ -51,6 +51,10 @@ namespace Bluetooth.HelloWorld
                 if (item == null)
                     return;
 
+                await Navigation.PushAsync(new DevicePage(item));
+                return;
+
+
                 if (item.IsWriting)
                     return;
 

@@ -160,7 +160,7 @@
       <Project>{B8C882CF-3D14-46EA-AB77-F27B7808B2F8}</Project>
       <Name>Bluetooth.HelloWorld</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Bluetooth.Plugin.UWP\Bluetooth.Plugin.UWP.csproj">
+    <ProjectReference Include="..\..\src\Bluetooth.Plugin.UWP\Bluetooth.Plugin.UWP.csproj">
       <Project>{3439071e-a478-4436-91e3-c4359a930145}</Project>
       <Name>Bluetooth.Plugin.UWP</Name>
     </ProjectReference>

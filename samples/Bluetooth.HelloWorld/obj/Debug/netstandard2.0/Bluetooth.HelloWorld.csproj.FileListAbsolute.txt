@@ -73,3 +73,4 @@ C:\GitHub\BluetoothPlugin\samples\Bluetooth.HelloWorld\obj\Debug\netstandard2.0\
 C:\GitHub\BluetoothPlugin\samples\Bluetooth.HelloWorld\obj\Debug\netstandard2.0\Bluetooth.HelloWorld.AssemblyInfo.cs
 C:\GitHub\BluetoothPlugin\samples\Bluetooth.HelloWorld\obj\Debug\netstandard2.0\Bluetooth.HelloWorld.dll
 C:\GitHub\BluetoothPlugin\samples\Bluetooth.HelloWorld\obj\Debug\netstandard2.0\Bluetooth.HelloWorld.pdb
+C:\GitHub\BluetoothPlugin\samples\Bluetooth.HelloWorld\obj\Debug\netstandard2.0\Bluetooth.HelloWorld.DevicePage.xaml.g.cs

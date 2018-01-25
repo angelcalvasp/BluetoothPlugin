@@ -18,23 +18,24 @@ namespace Bluetooth.HelloWorld
 		{
 			InitializeComponent();
             _bluetoothDevice = bluetoothDevice;
+            this.Appearing += DevicePage_Appearing;
         }
 
-        protected override void OnAppearing()
+        private async void DevicePage_Appearing(object sender, EventArgs e)
         {
             try
             {
                 if (!_bluetoothDevice.IsConnected)
                 {
-                    _bluetoothDevice.Connect().Wait();
+                    await _bluetoothDevice.Connect();
                 }
-                base.OnAppearing();
+
             }
             catch
             {
-                DisplayAlert("Error","Couldnt connect to device","Ok");
+                await DisplayAlert("Error", "Couldnt connect to device", "Ok");
+                await Navigation.PopAsync();
             }
-            
         }
 
         protected override void OnDisappearing()

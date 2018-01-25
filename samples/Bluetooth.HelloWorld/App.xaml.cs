@@ -13,7 +13,7 @@ namespace Bluetooth.HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new Bluetooth.HelloWorld.MainPage();
+            MainPage = new NavigationPage(new Bluetooth.HelloWorld.MainPage());
 		}
 
 		protected override void OnStart ()

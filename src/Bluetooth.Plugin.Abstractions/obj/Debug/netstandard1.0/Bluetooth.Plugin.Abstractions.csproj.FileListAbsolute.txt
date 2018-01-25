@@ -15,3 +15,4 @@ C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandar
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.AssemblyInfo.cs
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Plugin.Bluetooth.Abstractions.dll
 C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Plugin.Bluetooth.Abstractions.pdb
+C:\GitHub\BluetoothPlugin\src\Bluetooth.Plugin.Abstractions\obj\Debug\netstandard1.0\Bluetooth.Plugin.Abstractions.csprojResolveAssemblyReference.cache

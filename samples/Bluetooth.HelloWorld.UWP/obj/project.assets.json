@@ -4262,10 +4262,10 @@
       "type": "package",
       "path": "microsoft.net.native.sharedlibrary-arm/2.0.0",
       "files": [
+        "Microsoft.Net.Native.SharedLibrary-arm.2.0.0.nupkg.sha512",
+        "Microsoft.Net.Native.SharedLibrary-arm.nuspec",
         "build/Microsoft.Net.Native.SharedLibrary-arm.props",
         "build/Microsoft.Net.Native.SharedLibrary-arm.targets",
-        "microsoft.net.native.sharedlibrary-arm.2.0.0.nupkg.sha512",
-        "microsoft.net.native.sharedlibrary-arm.nuspec",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltoc",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltocpdb",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.iltoc",
@@ -4613,10 +4613,10 @@
       "type": "package",
       "path": "microsoft.net.native.sharedlibrary-x64/2.0.0",
       "files": [
+        "Microsoft.Net.Native.SharedLibrary-x64.2.0.0.nupkg.sha512",
+        "Microsoft.Net.Native.SharedLibrary-x64.nuspec",
         "build/Microsoft.Net.Native.SharedLibrary-x64.props",
         "build/Microsoft.Net.Native.SharedLibrary-x64.targets",
-        "microsoft.net.native.sharedlibrary-x64.2.0.0.nupkg.sha512",
-        "microsoft.net.native.sharedlibrary-x64.nuspec",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltoc",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltocpdb",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.iltoc",
@@ -4964,10 +4964,10 @@
       "type": "package",
       "path": "microsoft.net.native.sharedlibrary-x86/2.0.0",
       "files": [
+        "Microsoft.Net.Native.SharedLibrary-x86.2.0.0.nupkg.sha512",
+        "Microsoft.Net.Native.SharedLibrary-x86.nuspec",
         "build/Microsoft.Net.Native.SharedLibrary-x86.props",
         "build/Microsoft.Net.Native.SharedLibrary-x86.targets",
-        "microsoft.net.native.sharedlibrary-x86.2.0.0.nupkg.sha512",
-        "microsoft.net.native.sharedlibrary-x86.nuspec",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltoc",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.Concurrent.iltocpdb",
         "tools/SharedLibrary/chk/AnalysisILToc/System.Collections.iltoc",
@@ -5316,10 +5316,10 @@
       "path": "microsoft.net.uwpcoreruntimesdk/2.1.1",
       "files": [
         "LICENSE.TXT",
+        "Microsoft.Net.UWPCoreRuntimeSdk.2.1.1.nupkg.sha512",
+        "Microsoft.Net.UWPCoreRuntimeSdk.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.Net.UWPCoreRuntimeSdk.props",
-        "microsoft.net.uwpcoreruntimesdk.2.1.1.nupkg.sha512",
-        "microsoft.net.uwpcoreruntimesdk.nuspec",
         "tools/CoreRuntime/Microsoft.Build.Net.CoreRuntimeTask.dll",
         "tools/CoreRuntime/Microsoft.Cci.dll",
         "tools/CoreRuntime/Microsoft.Net.CoreRuntime.settings.targets",
@@ -5332,10 +5332,10 @@
       "path": "microsoft.netcore.platforms/2.0.0",
       "files": [
         "LICENSE.TXT",
+        "Microsoft.NETCore.Platforms.2.0.0.nupkg.sha512",
+        "Microsoft.NETCore.Platforms.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -5634,6 +5634,8 @@
       "path": "netstandard.library/2.0.1",
       "files": [
         "LICENSE.TXT",
+        "NETStandard.Library.2.0.1.nupkg.sha512",
+        "NETStandard.Library.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -5751,9 +5753,7 @@
         "build/netstandard2.0/ref/mscorlib.dll",
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
-        "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.1.nupkg.sha512",
-        "netstandard.library.nuspec"
+        "lib/netstandard1.0/_._"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.1": {
@@ -5942,8 +5942,8 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.props",
         "build/runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.targets",
-        "runtime.win10-arm.microsoft.net.uwpcoreruntimesdk.2.1.1.nupkg.sha512",
-        "runtime.win10-arm.microsoft.net.uwpcoreruntimesdk.nuspec",
+        "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.2.1.1.nupkg.sha512",
+        "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.nuspec",
         "tools/AppLocal/uwpshim.exe",
         "tools/Appx/Microsoft.NET.CoreRuntime.2.1.appx",
         "tools/CoreRuntime/copywin32resources.exe"
@@ -6311,8 +6311,8 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.props",
         "build/runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.targets",
-        "runtime.win10-x64.microsoft.net.uwpcoreruntimesdk.2.1.1.nupkg.sha512",
-        "runtime.win10-x64.microsoft.net.uwpcoreruntimesdk.nuspec",
+        "runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.2.1.1.nupkg.sha512",
+        "runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.nuspec",
         "tools/AppLocal/uwpshim.exe",
         "tools/Appx/Microsoft.NET.CoreRuntime.2.1.appx",
         "tools/CoreRuntime/copywin32resources.exe"
@@ -6680,8 +6680,8 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props",
         "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets",
-        "runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.1.1.nupkg.sha512",
-        "runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.nuspec",
+        "runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.2.1.1.nupkg.sha512",
+        "runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.nuspec",
         "tools/AppLocal/uwpshim.exe",
         "tools/Appx/Microsoft.NET.CoreRuntime.2.1.appx",
         "tools/CoreRuntime/copywin32resources.exe"
@@ -6891,18 +6891,14 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Core.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
         "lib/WP80/Design/Xamarin.Forms.Core.Design.dll",
@@ -7080,7 +7076,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\angel\\.nuget\\packages\\": {},
+    "C:\\Users\\Nuevo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
@@ -7089,7 +7085,7 @@
       "projectUniqueName": "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld.UWP\\Bluetooth.HelloWorld.UWP.csproj",
       "projectName": "Bluetooth.HelloWorld.UWP",
       "projectPath": "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld.UWP\\Bluetooth.HelloWorld.UWP.csproj",
-      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Nuevo\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
@@ -7097,7 +7093,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nuevo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -7113,14 +7109,14 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
+            "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.Abstractions\\Bluetooth.Plugin.Abstractions.csproj": {
+              "projectPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.Abstractions\\Bluetooth.Plugin.Abstractions.csproj"
+            },
             "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.csproj": {
               "projectPath": "C:\\GitHub\\BluetoothPlugin\\samples\\Bluetooth.HelloWorld\\Bluetooth.HelloWorld.csproj"
             },
             "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.UWP\\Bluetooth.Plugin.UWP.csproj": {
               "projectPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.UWP\\Bluetooth.Plugin.UWP.csproj"
-            },
-            "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.Abstractions\\Bluetooth.Plugin.Abstractions.csproj": {
-              "projectPath": "C:\\GitHub\\BluetoothPlugin\\src\\Bluetooth.Plugin.Abstractions\\Bluetooth.Plugin.Abstractions.csproj"
             }
           }
         }
